@@ -1,4 +1,4 @@
-package OOPS;
+package classes_objects;
 
 class classes_object {
  
