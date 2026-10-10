@@ -7,6 +7,7 @@ public class overloading {
         Calculator c = new Calculator();
         System.out.println(c.add(2,3, 0));
         System.out.println(c.add(2,5));
+        System.out.println(c.add(2,5,6,7));
     }
 }
 
@@ -34,6 +35,10 @@ class Calculator {
 
     int add(int a, int b, int c) {
         return a + b + c;
+    }
+
+    int add(int a,int b,int c,int d){
+        return a+b+c+d;
     }
 }
 
